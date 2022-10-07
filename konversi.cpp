@@ -9,7 +9,7 @@ void printSelisih(int h1, int m1, int s1, int h2, int m2, int s2) {
   int jam_kedua_dalam_sekon = (h2 * 3600) + (m2 * 60) + s2;
 
   /*
-  Conditional untuk cek apakah jumlah sekon dalam jam kedua lebih kecil dari jam kedua
+  Conditional untuk cek apakah jumlah sekon dalam jam kedua lebih kecil dari jam pertama
   Jika iya maka jam kedua dianggap sebagai hari berikutnya dan ditambah 24 jam (atau 86400 dalam sekon)
   */
   if (jam_pertama_dalam_sekon > jam_kedua_dalam_sekon) {
